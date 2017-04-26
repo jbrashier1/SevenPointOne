@@ -16,4 +16,11 @@ public class SortClass {
             }
         }
     }
+    public static String displayArr(int [] numArr) {
+        String output = "";
+        for(int i = 0; i < numArr.length; i++) {
+            output = output + Integer.toString(numArr[i]) + ", ";
+        }
+        return output;
+    }
 }

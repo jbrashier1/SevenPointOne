@@ -11,9 +11,10 @@ public class SortDriver {
         numCount++;
         }
         SortClass.sort(numArr);
-        System.out.println("Sorted Array:\n");
+        /*System.out.println("Sorted Array:\n");
         for(int x = 0; x < numArr.length; x++) {
             System.out.print(numArr[x] + ", ");
-        }
+        }*/
+        JOptionPane.showMessageDialog(null, SortClass.displayArr(numArr));
     }
 }
